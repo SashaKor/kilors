@@ -1,4 +1,3 @@
-
 public interface Deque<Card> {
 
 // /Returns the number of elements in this deque.
