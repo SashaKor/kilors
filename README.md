@@ -43,6 +43,7 @@ Stack method alternatives (to be implemented if time permits)
 - contains(Object o)
 - descendingIterator()
 - iterator()
+- remove(Object o)
 - removeFirstOccurence(Object o)
 - removeLastOccurence(Object o)
 
