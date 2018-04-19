@@ -1,8 +1,11 @@
 import java.util.LinkedList; 
 public class QQKachoo<Card> implements Deque<Card>  {
-    LinkedList<Card> test; 
+    public LinkedList<Card> test; 
+    private boolean isFromFront; 
 
     public QQKachoo() {test = new LinkedList<Card>();}
+
+    public String toString() {return test.toString();}
 
     //Inserts the specified element at the front of this deque if it is possible to 
     //do so immediately without violating capacity restrictions.
