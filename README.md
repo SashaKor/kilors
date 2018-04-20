@@ -49,7 +49,9 @@ Stack method alternatives (to be implemented if time permits)
 
 # Summary of Development Plan
 
-The first goal is to create the interface with all the methods in which we would code. We would also establish a driver file that would test implemented methods incrementally. Then, we would develop the essential methods (those that will throw exceptions if the method fails). The methods selected would allow for the implementation of both the stack and queue structures, if need be. The next step is to write the first alternatives to those methods (the ones that return special values). Lastly, we can add the queue, stack, and extra non-essential methods. 
+Our group has chosen and implemented the methods that we thought were necessary for the deque, queue, and stack structures. We used LinkedList as our container, and used the imported methods to facilitate our work. This is reflected in our Deque interface, as well as our driver file (DDdrive.java).
+
+What is left to do is to possibly implement other methods that are referenced on the API page and to discuss the uses of Deques as a structure.
 
 
 
