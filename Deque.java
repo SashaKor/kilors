@@ -23,9 +23,11 @@ public interface Deque<Card> {
 //Retrieves, but does not remove, the last element of this deque.
     public Card getLast(); 
 
+    /*
 //Inserts the specified element at the front of this deque unless it would violate capacity restrictions.
     public boolean offerFirst(Card e); 
-
+    //end of essential methods
+    
 //Retrieves and removes the first element of this deque, or returns null if this deque is empty.
     public Card	pollFirst(); 
 
@@ -95,4 +97,5 @@ public interface Deque<Card> {
 
 //Removes the last occurrence of the specified element from this deque.
     public boolean	removeLastOccurrence(Object o); 
+    */
 }
