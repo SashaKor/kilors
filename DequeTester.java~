@@ -1,9 +1,0 @@
-public class DequeTester{
-
-    public static void main (String[] args){
-	QQKachoo<String> Q = new QQKachoo<String>();
-	Q.addFront("a");
-	System.out.println(Q);
-    }
-
-}
