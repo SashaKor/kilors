@@ -1,12 +1,12 @@
 # Team kilors
-# Angela Tom, Aleksandra Koroza, Susan Lin
+## Angela Tom, Aleksandra Koroza, Susan Lin
 
 We will use (doubly-linked) node-based architecture because it will have a faster runtime than the other choices: array-based or ArrayList-based. For methods such as remove and add-at-index, the ArrayList and array structure would require iterating across the entire collection and creating a new collection that reflects these changes. An array-based structure was also not considered because of its limitations on collection size. Although there can be size-restricted deque implementations, our structure should support deques with no fixed size limits (as specified by the java api). Our team eventually settled on a LinkedList based architecture due to runtime efficiency and ease of programming (a subjective assessment).
 
 # Ordered/Prioritized To-Do List
 
 1. Essential Methods (throws exception if method fails)
-These methods we will implement first according to our development plan. There is a lot of cross-over among the deque interface methods and the following methods are, at its core, all that is necessary to implement both the stack and queue structures.
+These methods we will implement first according to our development plan. There is a lot of cross-over among the deque interface methods and the following methods are, at its core, all that is necessary to implement both the stack and queue structures. When we determined that we would use Linked List, we took advantage of the fluidity of the Deque interface by picking and choosing which methods to keep. We've commented out signatures and implementations of all other methods but they're still available in case, somewhere along the way, we decide on an alternative path. 
 
 - addFirst(E e)
 - addLast(E e)
@@ -49,9 +49,9 @@ Stack method alternatives (to be implemented if time permits)
 
 # Summary of Development Plan
 
-Our group has chosen and implemented the methods that we thought were necessary for the deque, queue, and stack structures. We used LinkedList as our container, and used the imported methods to facilitate our work. This is reflected in our Deque interface, as well as our driver file (DDdrive.java).
+Our group has chosen and implemented the methods that we thought were necessary for the deque, queue, and stack structures. We used LinkedList as our container, and used the imported methods to facilitate our work. This is reflected in our Deque interface, as well as our driver file (DDriver.java).
 
-What is left to do is to possibly implement other methods that are referenced on the API page and to discuss the uses of Deques as a structure.
+We have implemented other methods that are referenced on the API page and to discuss the uses of Deques as a structure, but would like to reiterate our previous point, that they are unnecessary. 
 
 
 
