@@ -51,7 +51,7 @@ Stack method alternatives (to be implemented if time permits)
 
 Our group has chosen and implemented the methods that we thought were necessary for the deque, queue, and stack structures. We used LinkedList as our container, and used the imported methods to facilitate our work. This is reflected in our Deque interface, as well as our driver file (DDriver.java).
 
-We have implemented other methods that are referenced on the API page and to discuss the uses of Deques as a structure, but would like to reiterate our previous point, that they are unnecessary. 
+We have implemented other methods that are referenced on the API page and to discuss the uses of Deques as a structure, but would like to reiterate our previous point, that they are unnecessary. We also added more whitespace and made the comments more consistent.  
 
 
 
